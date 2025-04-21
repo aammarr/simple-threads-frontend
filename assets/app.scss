@@ -1,0 +1,332 @@
+.subscribe-button {
+  padding: 10px 12px;
+  font-size: 14px;
+  background: #df232f;
+  color: white !important;
+  border-radius: 10px;
+  &:hover {
+    cursor: pointer;
+    background: #c21f2a;
+  }
+}
+.subscribe-button:disabled {
+  background: #cc4747 !important;
+  cursor: default;
+  color: #cccccc;
+}
+.save-button {
+  padding: 7px 13px;
+  font-size: 14px;
+  background: #112f8d;
+  width: 70px;
+  color: white;
+  border-radius: 10px;
+  &:hover {
+    cursor: pointer;
+    background: #102c7e;
+  }
+}
+
+.back-button {
+  padding: 10px 12px;
+  font-size: 14px;
+  min-width: 70px;
+
+  color: #df232f;
+  border: 1px solid #df232f;
+  border-radius: 10px;
+  &:hover {
+    cursor: pointer;
+    background: rgb(240, 239, 239);
+  }
+}
+.list {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  align-items: center;
+  @media (max-width: 959px) {
+    justify-content: center;
+  }
+}
+.top-title {
+  color: #df232f;
+  font-size: 18px;
+}
+.bottom-title {
+  font-size: 38px;
+  font-family: Ubuntu !important;
+}
+
+.text-field {
+  background: white;
+  color: black;
+  border-radius: 15px !important;
+  width: 100%;
+  margin-bottom: 20px !important;
+  height: 55px;
+  padding: 0 20px;
+}
+.main-container {
+  background: #ececf0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main-container-new {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main-container-header {
+  background-color: #f8f9fa; /* Example: Adjust to your preferred background */
+  padding: 10px 15px;
+}
+
+.header-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.nav-button {
+  margin: 0 10px;
+  cursor: pointer;
+  color: #061c68; /* Adjust color */
+}
+
+.nav-button.active-button {
+  font-weight: bold;
+}
+
+
+.mid-container {
+  @media (min-width: 1264px) {
+    width: 1630px;
+  }
+  width: 100%;
+  padding: 0 20px;
+}
+
+.v-sheet.v-stepper:not(.v-sheet--outlined) {
+  box-shadow: none !important;
+}
+
+.theme--light.v-sheet--outlined {
+  border: none !important;
+}
+
+.stepper-title {
+  font-family: Ubuntu !important;
+  font-size: 28px;
+  color: black;
+  padding: 20px 0;
+  line-height: 1;
+  @media (max-width: 600px) {
+    font-size: 18px;
+  }
+}
+
+.emergency-title {
+  font-family: Ubuntu !important;
+  font-size: 22px;
+  color: black;
+  padding: 20px 0;
+  line-height: 1;
+  @media (max-width: 600px) {
+    font-size: 18px;
+  }
+}
+
+.v-tab {
+  &:hover {
+    background-color: $primary-color;
+    border-radius: 20px;
+    color: white !important;
+    height: 40px !important;
+  }
+}
+.v-tab--active {
+  background-color: $primary-color;
+  border-radius: 20px;
+  color: white !important;
+  height: 40px !important;
+}
+.v-slide-group__content {
+  align-items: center;
+  padding: 0 10px;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+  background-color: #df232f !important;
+  border: none !important;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-cancel {
+  color: #df232f !important;
+  border: 1px solid #df232f !important;
+  background-color: white !important;
+}
+
+/* Hide spin buttons in Chrome, Safari, Edge */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hide spin buttons in Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Hide the clear button in Edge */
+input[type="number"]::-ms-clear {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .v-tabs:not(.v-tabs--vertical):not(.v-tabs--right)
+    > .v-slide-group--is-overflowing.v-tabs-bar--is-mobile:not(
+      .v-slide-group--has-affixes
+    )
+    .v-slide-group__prev {
+    display: none !important;
+  }
+  .v-tabs--fixed-tabs > .v-tabs-bar .v-tab {
+    width: auto !important;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.pfsh__listStyle li:active {
+  background-color: #102c7e !important;
+  color: #fff !important; /* Add the color you want for the text */
+}
+
+.image-style {
+height: 400px;
+
+gap: 0px;
+border-radius: 10px;
+opacity: 0px;
+margin-bottom: 20px;
+
+}
+
+.image-style-about {
+  height: 460px;
+  
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;
+  margin-bottom: 20px;
+  
+  }
+
+.text-style {
+  font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 20px;
+text-align: justify;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.small-heading {
+  font-size: 30px !important;
+  font-weight: bold !important;
+  font-family: Ubuntu !important;
+  color: #DF232F !important
+}
+
+.login-background {
+  background: $primary-color;
+}
+
+.stepper-background {
+  background-color: #E3DBF0
+}
+
+.small-heading-blog {
+  font-size: 30px !important;
+  font-weight: bold !important;
+  font-family: Ubuntu !important;
+  color: $primary-color !important
+}
+
+.page-style {
+
+
+  padding-left: 12px !important;
+  padding-right: 12px !important; 
+
+  padding-bottom: 150px !important;
+  @media (min-width: 959px) {
+    padding-left: 150px !important;
+    padding-right: 150px !important;
+  
+  }
+  @media (min-width: 1150px) {
+    padding-left: 320px !important;
+    padding-right: 320px !important;
+  
+  }
+  
+}
+
+.custom-icon-list {
+  list-style: none !important;
+  padding-left: 0;
+}
+
+.custom-icon-list li {
+  position: relative;
+  font-size: 18px;
+  padding-left: 24px; /* Space for the icon */
+  margin-bottom: 8px;
+  /* font-weight: bold; */
+  font-family: Poppins !important;
+
+}
+
+.custom-icon-list li::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px; /* Match the width of the SVG */
+  height: 20px; /* Match the height of the SVG */
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M17.834 9.99984L9.66732 7.49984L3.41732 1.6665L5.33398 9.99984L3.33398 18.3332L9.58398 12.4998L17.834 9.99984Z" fill=\'%23DF232F\'/></svg>')
+    no-repeat;
+  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M17.834 9.99984L9.66732 7.49984L3.41732 1.6665L5.33398 9.99984L3.33398 18.3332L9.58398 12.4998L17.834 9.99984Z" fill=\'%23DF232F\'/></svg>')
+    no-repeat;
+  background-color: #df232f; /* Fallback color for unsupported browsers */
+  
+}
+
+.v-application {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.v-card,
+.v-container,
+.v-sheet,
+.v-btn,
+.v-dialog,
+.v-text-field {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.v-dialog {
+  box-shadow: none !important;
+}
+

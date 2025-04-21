@@ -1,0 +1,25 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+.v-btn {
+  text-transform: capitalize !important;
+}
+
+
+// Define global variables
+$primary-color: #8969B4;
+$secondary-color: #333333;
+$accent-color: #061c68;
+$success-color: #4CAF50;
+$error-color: #FF5252;
+
+// Add additional variables as needed
+$font-family-base: 'Poppins', sans-serif;
+$font-family-alt: 'Ubuntu', sans-serif;
